@@ -4,7 +4,7 @@ apply plugin: 'kotlin-android'
 android {
     compileSdkVersion 26
     defaultConfig {
-        applicationId "com.eyuan.wx.screen"
+        applicationId "com.eyuan.wmpf"
         minSdkVersion 21
         targetSdkVersion 26
         versionCode 1
@@ -41,8 +41,8 @@ android {
     productFlavors {
         guide {
             dimension 'product'
-            applicationIdSuffix ".demo"
-            versionNameSuffix "-demo"
+            applicationIdSuffix ".screen"
+            versionNameSuffix "-screen"
         }
         experience {
             dimension 'product'
